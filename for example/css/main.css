@@ -1,0 +1,13 @@
+body {
+  font: 15px/36px "SegoeWP-Light", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}

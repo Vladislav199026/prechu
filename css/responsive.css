@@ -1,0 +1,267 @@
+@media(max-width:1700px){
+  .splide__arrow--next {
+  right: 310px;
+}
+.splide__arrow--prev {
+  left: 310px;
+}
+}
+@media(max-width:1500px){
+.splide__arrow--next {
+  right: 210px;
+}
+.splide__arrow--prev {
+  left: 210px;
+}
+}
+@media(max-width:1300px){
+.splide__arrow--next {
+  right: 110px;
+}
+.splide__arrow--prev {
+  left: 110px;
+}
+}
+@media (max-width: 1256px) {
+  body {
+    min-width: 100%;
+  }
+ .bg-img{
+   width:100%
+ }
+  .slider,
+  .shopping{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.logo {
+  margin-left: 0px;
+}
+
+.splide__arrow--next {
+  right: 70px;
+}
+.splide__arrow--prev {
+  left: 70px;
+}
+@media(max-width:1050px){
+  .splide__arrow--next {
+  right: 20px;
+}
+.splide__arrow--prev {
+  left: 20px;
+}
+
+}
+@media (max-width: 973px) {
+main,
+header {
+    width: 100%;
+    padding-left:5px;
+    padding-right: 5px;
+}
+  .splide__arrow--next {
+  right: 10px;
+}
+.splide__arrow--prev {
+  left: 10px;
+}
+.slider,
+  .bg-img {
+    height: 350px;
+  }
+  .iphone img {
+    width: 250px;
+    height: 295px;
+  }
+  .slider strong {
+    font-size: 36px;
+    padding-bottom: 0px;
+  }
+  .slider p {
+    font-size: 24px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  .shopping,
+  .shopping-cart,
+  .bullet-text {
+    width: 100%;
+    display: block;
+  }
+  .bullet-text {
+    padding: 20px 0px 0px 0px;
+    text-align: left;
+  }
+  .shopping-cart {
+    text-align: center;
+  }
+  .shopping-cart img {
+    width: 310px;
+    height: 260px;
+  }
+  .bullet-text h4 {
+    font-size: 34px;
+  }
+  .bullet-text p {
+    font-size: 17px;
+  }
+  header ul {
+  width: 330px;
+}
+}
+@media (max-width: 656px) {
+  header{
+    /* padding: 22px 15px 15px 31px; */
+    padding-left: 31px;
+
+  }
+  main{
+    padding-left:0px;
+    padding-right: 0px;
+}
+  .logo span {
+  width: 51px;
+  height: 51px
+}
+  .logo span::before {
+  top: 25px;
+  left: 10px;
+  font-size: 90px;
+  }
+  .logo h1 {
+  margin-left: 13px;
+  font: 300 49px "SegoeWP-Light", sans-serif;
+  letter-spacing: 1px;
+}
+
+  .slider {
+    padding:20px 80px 0px 40px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  header ul {
+    display: none;
+  }
+  .iphone img {
+    width: 175px;
+    height: 222px;
+  }
+  .slider,
+  .bg-img {
+    height: 247px;
+  }
+  .border:before {
+    display: none;
+  }
+  .splide__arrow--next,
+  .splide__arrow--prev {
+    display: none;
+  }
+  .slider strong {
+    font-size: 30px;
+    padding-bottom: 3px;
+    line-height: 38px;
+  }
+  .slider p {
+    font-size: 22px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+  main {
+    padding-top: 0px;
+  }
+  main ul {
+    display: block;
+    padding-bottom: 48px;
+  }
+  main li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    padding-left:5px;
+    padding-right: 5px;
+    margin-top:39px;
+    padding-bottom: 18px;
+  }
+  main li strong {
+    font-size: 34px;
+    text-align: left;
+  }
+  main li p {
+    font-size: 19px;
+    text-align: left;
+  }
+  .circle {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+  }
+  .blue-circle::before {
+    font-size: 78px;
+    top: 29px;
+    left: 43px;
+  }
+  .red-circle::before {
+    font-size: 70px;
+    top: 34px;
+    left: 27px;
+  }
+  .yellow-circle::before {
+    font-size: 75px;
+    top: 29px;
+    left: 27px;
+  }
+  .contrary {
+    width: 67%;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .shopping-cart img {
+    width: 215px;
+    height: 163px;
+    padding: 0px;
+    margin-top:30px
+  }
+  .check {
+  padding: 5px 0px 0px 43px;
+  font-size: 31px;
+  width: 235px;
+  height: 53px;
+  text-align: center;
+}
+.check::before {
+  top: 11px;
+  left: 13px;
+  font-size: 30px;
+}
+.sign-up{
+  padding-left: 10px;
+}
+.splide{
+  width:100%
+}
+
+}
+@media(max-width:500px){
+  .slider{
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+}
+@media(max-width:415px){
+  .iphone img{
+    display: none;
+  }
+}
